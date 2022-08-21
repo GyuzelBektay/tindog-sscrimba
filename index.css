@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 700px;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  margin: 0 auto;
+}
+.container {
+  width: 550px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
+}
+.buttons-container {
+  width: 550px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
+}
+.nav {
+  height: 81px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-image {
+  width: 32px;
+  height: 34px;
+  margin-left: 18px;
+}
+.nav-logo {
+  width: 84px;
+  height: 42px;
+}
+.nav-chat {
+  width: 34px;
+  height: 34px;
+  margin-right: 18px;
+}
+.main-photo {
+  max-width: 534px;
+  height: 751.44px;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
+}
+
+.main-text {
+  position: absolute;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  width: 200px;
+  top: 750px;
+  margin-left: 30px;
+}
+.text-name {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.text-quote {
+  width: 300px;
+  margin-top: 9px;
+}
+.btns {
+  padding: 20px 0;
+  position: absolute;
+  top: 880px;
+  margin-left: 50px;
+}
+.circles {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.redcircle {
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 10px 20px #e9e9ea;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.greencircle {
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 10px 20px #e9e9ea;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.btn {
+  margin-right: 58px;
+}
+.hover-effect {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 550px;
+}
+.redeffect {
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.greeneffect {
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.red {
+  background-color: #ffe7ef;
+}
+
+.green {
+  background-color: #dbfff4;
+}
+
+.badge1 {
+  width: 233px;
+  height: 116px;
+  display: none;
+}
+.badge2 {
+  width: 233px;
+  height: 116px;
+  display: none;
+}
+
+.badge-like {
+  position: absolute;
+  top: 160px;
+  left: 490px;
+  transform: rotate(-45deg);
+}
+
+.badge-nope {
+  position: absolute;
+  top: 160px;
+  left: 490px;
+  transform: rotate(-45deg);
+}
